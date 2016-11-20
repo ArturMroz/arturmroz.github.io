@@ -30,9 +30,9 @@ main {
     align-items: center;
 }
 
-main div {
-    padding: 15px;
-}
+/*main div {*/
+    /*padding: 5px;*/
+/*}*/
 
 a {
     outline: none;
@@ -121,6 +121,7 @@ h2:after {
     display: inline-block;
 
     margin: 15px;
+    padding: 10px;
 }
 
 #logodiv:after {
@@ -406,12 +407,23 @@ a.symbol:before {
     }
 
     h2, .amp {
-        font-size: 24px;
+        font-size: 20px;
         /*font-size: 8vw;*/
     }
 
      #logo {
         width: 90px;
         height: 90px;
+    }
+
+    .icon, .icon::before {
+        width: 40px;
+        height: 40px;
+        font-size: 40px;
+        line-height: 40px;
+    }
+
+    #logodiv {
+        padding: 5px;
     }
 }
