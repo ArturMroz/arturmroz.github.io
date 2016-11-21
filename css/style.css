@@ -401,16 +401,17 @@ a.symbol:before {
 @media screen and (max-width: 480px) {
     h1 {
         font-size: 45px;
-        /*font-size: 15vw;*/
-
         margin: 0;
     }
 
     h2, .amp {
         font-size: 20px;
-        /*font-size: 8vw;*/
     }
 
+    main div {
+        margin-bottom: 45px;
+    }
+    
      #logo {
         width: 90px;
         height: 90px;
@@ -425,5 +426,10 @@ a.symbol:before {
 
     #logodiv {
         padding: 5px;
+    }
+    
+    nav a span {
+        font-size: 13px;
+        line-height: 18px;
     }
 }
