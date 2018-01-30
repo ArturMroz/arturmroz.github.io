@@ -144,12 +144,6 @@ h2:after {
     background: #ea0924;
 }
 
-#logodiv:hover:after {
-    -webkit-transform: scale(.7);
-            transform: scale(.7);
-
-    opacity: 0;
-}
 
 #logo {
     width: 140px;
@@ -159,6 +153,14 @@ h2:after {
             transition: all .4s;
 }
 
+/*
+#logodiv:hover:after {
+    -webkit-transform: scale(.7);
+            transform: scale(.7);
+
+    opacity: 0;
+}*/
+
 #crown {
     transition: all .4s;
     -webkit-transform: scale(1);
@@ -167,13 +169,14 @@ h2:after {
     fill: #fff;
 }
 
+/*
 #logodiv:hover #crown {
     -webkit-transform: scale(1.5) translateY(-11px) translateX(-10px);
     transform: scale(1.5) translateY(-11px) translateX(-10px);
 
     fill: #ea0924;
 }
-
+*/
 nav {
     margin-top: 20px;
 }
@@ -336,6 +339,10 @@ a.symbol:before {
     content: '\e086';
 }
 
+.icon-instagram:before {
+    content: '\e100';
+}
+
 .icon-dribbble:before {
     content: '\e021';
 }
@@ -358,6 +365,10 @@ a.symbol:before {
 
 .icon-dribbble:after {
     background: #ea4c89;
+}
+
+.icon-instagram:after {
+    background: #c4317e;
 }
 
 .icon-twitter:after {
@@ -412,16 +423,20 @@ a.symbol:before {
         margin-bottom: 45px;
     }
     
+    .icon {
+        margin: 10px 14px;
+    }
+
      #logo {
         width: 90px;
         height: 90px;
     }
 
     .icon, .icon::before {
-        width: 40px;
-        height: 40px;
-        font-size: 40px;
-        line-height: 40px;
+        width: 38px;
+        height: 38px;
+        font-size: 38px;
+        line-height: 38px;
     }
 
     #logodiv {
